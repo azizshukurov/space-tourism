@@ -8,10 +8,14 @@ function removeActiveClass(){
     tabContent.forEach(item => {
         item.classList.remove('active')
     })
+    tabLink.forEach(item => {
+        item.classList.remove('link__active')
+    })
 }
 
 function addActiveClass(index = 0){
     tabContent[index].classList.add('active')
+    tabLink[index].classList.add('link__active')
 }
 
 tabLinkParent.addEventListener('click', (e) => {

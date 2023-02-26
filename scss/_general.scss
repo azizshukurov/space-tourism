@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap');
 
 $paragraph: #D0D6F9;
-$text: #0B0D17;
 
 *{
     margin: 0;
@@ -16,7 +15,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-button{
+button, input{
     outline: 0;
     border: 0;
 }
